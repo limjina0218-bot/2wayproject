@@ -8,9 +8,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class MovieController {
 
     @GetMapping("/")
-    public String movie1(){
-
-        return "/main";
+    public String main() {
+        return "main";
     }
+
 
 }
